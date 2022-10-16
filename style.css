@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+body {
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+}
+
+/*navbar */
+.collapse ul li a {
+    font-weight: 400 !important;
+    color: #000 !important;
+}
+
+.collapse ul li a:hover {
+    font-weight: bold !important;
+    border-bottom: 2px solid #008080;
+}
+
+.collapse .navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.collapse .navbar-nav .nav-item .btn-masuk {
+    width: 113px;
+    height: 50px;
+    background-color: #008080;
+    border-radius: 24px;
+}
+
+/*navbar */
+
+/* header */
+.konten {
+    width: auto;
+    height: 544px;
+    background-image: url("../img/bg-header.png");
+    background-size: cover;
+    margin: 9% 20px 10px 20px;
+    border-radius: 15px;
+}
+
+/* card */
+.konten .card {
+    border-radius: 24px;
+    margin: 120px 50px;
+    line-height: 30px;
+}
+
+.konten .card .card-title {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.konten .card .card-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000b2;
+}
+
+.form-search {
+    background-color: #00000014;
+    height: 50px;
+    border-radius: 24px;
+    box-shadow: 0px 2px 4px 0px rgba(12, 18, 18, 0.1);
+}
+
+.form-search .search-text{
+    height: 50px;
+    border: 0;
+    padding: 0 10px;
+    color: #000;
+    background: none;
+}
+
+.form-search .btn-github {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: #008080;
+    border-radius: 24px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+/* header */
+
+/* RESUME */
+
+.resume, .about{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.resume-task .find a,
+.about-us .find a{
+    color: #008080;
+    font-size: 18px;
+    font-weight: 400 !important;
+    text-decoration: none;
+}
+
+/* card */
+.card .btn-read{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00808033;
+}
+
+.card .card-body span{
+    font-size: 16px;
+}
+
+.card .btn-read:hover{
+    color: #fff;
+    background-color: #008080;
+}
+
+/* card */
+
+
+/* RESUME */
+
+/* ABOUT */
+/* card best about */
+
+.card-about .card .row{
+    margin: 20px 20px 0 8px;
+}
+
+.card-about .card .image-card{
+    width: 120px;
+    height: 120px;
+}
+
+.card-about .card .category-about button{
+    width: 112px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 24px;
+    border: 1px solid #008080;
+    background: #008080;
+    color: #fff;
+}
+
+.card-about .card .description{
+    margin: 0;
+    color: #000000CC;
+}
+
+.card-about .card .description h5{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.card-about .card .description p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.card-about .card .btn-profile-about {
+    height: 40px;
+    border-radius: 24px;
+    background-color: #00808033;
+}
+
+.card-about .card .btn-profile-about a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000CC;
+    cursor: pointer;
+}
+
+.card-about .card .btn-profile-about:hover {
+    color: #fff;
+    background-color: #008080;
+}
+
+/* about */
+/* ABOUT */
+
+/* footer */
+footer {
+    background-color: #fff;
+}
+
+footer .diskas .about {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000B2;
+}
+
+.footer{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+footer .diskas .cp {
+    color: #000000B2;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer .diskas .cs a,
+footer .diskas .email a {
+    color: #000000B2;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer .resume h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000B2;
+}
+
+footer .resume a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000B2;
+    line-height: 30px;
+}
+
+/* footer */
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    .konten {
+        margin-top: 25%;
+    }
+
+    .konten .card {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    .konten .card .card-title {
+        font-size: 30px;
+    }
+}
+
+/* MEDIA SCREEN */

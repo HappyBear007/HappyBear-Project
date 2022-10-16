@@ -1,12 +1,378 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happy Bear</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- FONT -->
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p>Selamat Datang</p>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-fluid m-4 ">
+            <!-- <a class="navbar-brand" style="font-weight: 400; color: #000;" href="#">DISKAS</a> -->
+            <img src="img/logo.png" width="60" alt="DISKAS OFFICIAL">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item mt-1">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a class="nav-link" href="#">Resume Task</a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- Konten atas -->
+    <section>
+        <div class="container-fluid">
+            <div class="row konten">
+                <div class="col-lg-12">
+                    <div class="col-sm-6">
+                        <div class="card w-100 h-50">
+                            <div class="card-body ">
+                                <h2 class="card-title">Welcome to Happy Bear Website!</h2>
+                                <p class="card-text mt-3">
+                                    Our resume task is here! Checkout our resume and also you can check our Github by clicked the link bellow!
+                                </p>
+                                <!-- <a href="https://github.com/HappyBear007/HappyBear-Project" target="_blank" class="btn btn-primary github-link mb-4">Github Link</a> -->
+
+                                <div class="input-group mb-3 form-search">
+                                    <a href="https://github.com/HappyBear007/HappyBear-Project" target="_blank" class="btn btn-github mb-4">Github Link</a>
+                                    <input type="text" class="form-control search-text" value="https://github.com/HappyBear007/HappyBear-Project" disabled>
+                                </div>
+
+                                <p style="border-bottom-style: dashed; width: 360px; color:#00000033;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Konten atas -->
+
+    <!-- resume -->
+    <section class="resume">
+        <div class="container-fluid">
+            <div class="row mt-3">
+                <div class="col-lg-12">
+                    <div class="row m-3 resume-task">
+                        <div class="col-6">
+                            <h3>Read Our Task Resume</h3>
+                        </div>
+    
+                        <div class="col-6 find">
+                            <a href="resume.html" class="text-end mr-3 d-block">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row m-3 card-event">
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card">
+                                <img src="img/pertemuan1.png" class="card-img-top rounded-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">PERTEMUAN 1</h5>
+                                    <i class="bi bi-journals"></i>
+                                    <span class="fw-bold">LOGIKA BAG. 1</span>
+    
+                                    <!-- button -->
+                                    <div class="row">
+                                        <div class="col-12 m-0 mt-3 d-grid gap-2">
+                                            <a href="#" class="mb-2 btn btn-read">READ THIS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card">
+                                <img src="img/pertemuan1.png" class="card-img-top rounded-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">PERTEMUAN 2</h5>
+                                    <i class="bi bi-journals"></i>
+                                    <span class="fw-bold">LOGIKA BAG. 2</span>
+                        
+                                    <!-- button -->
+                                    <div class="row">
+                                        <div class="col-12 m-0 mt-3 d-grid gap-2">
+                                            <a href="#" class="mb-2 btn btn-read">READ THIS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card">
+                                <img src="img/pertemuan1.png" class="card-img-top rounded-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">PERTEMUAN 3</h5>
+                                    <i class="bi bi-journals"></i>
+                                    <span class="fw-bold">PENGERTIAN HIMPUNAN</span>
+                        
+                                    <!-- button -->
+                                    <div class="row">
+                                        <div class="col-12 m-0 mt-3 d-grid gap-2">
+                                            <a href="#" class="mb-2 btn btn-read">READ THIS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card">
+                                <img src="img/pertemuan1.png" class="card-img-top rounded-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">PERTEMUAN 4</h5>
+                                    <i class="bi bi-journals"></i>
+                                    <span class="fw-bold">HIMPUNAN BAG. 1</span>
+                        
+                                    <!-- button -->
+                                    <div class="row">
+                                        <div class="col-12 m-0 mt-3 d-grid gap-2">
+                                            <a href="#" class="mb-2 btn btn-read">READ THIS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card -->
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resume -->
+
+    <!-- about -->
+    <section class="about mb-5" id="about">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="row m-3 about-us">
+                        <div class="col-6">
+                            <h3>Meet Our Team Work!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row m-3 card-about">
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card" style="border-radius: 10px;">
+                                <!-- title-name -->
+                                <div class="row">
+                                    <div class="col-6 image-card ml-3">
+                                        <img src="img/about/1.png" class="card-img-top" alt="Mentor Dito">
+                                    </div>
+                        
+                                    <div class="col-6 category-about">
+                                        <button type="submit">Mahasiswa</button>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="row m-0 mb-2">
+                                    <div class="col-12 description">
+                                        <h5>Yusuf Fataa Muhana</h5>
+                                        <p>2110047</p>
+                                        <p>STMIK ANTAR BANGSA</p>
+                                    </div>
+                                </div>
+                        
+                                <!-- button -->
+                                <div class="row">
+                                    <div class="col-12 m-0 d-grid gap-2">
+                                        <a href="hhttps://www.instagram.com/yusufkata03/" target="_blank"
+                                            class="mb-4 btn btn-profile-about">Connect With Me</a>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card" style="border-radius: 10px;">
+                                <!-- title-name -->
+                                <div class="row">
+                                    <div class="col-6 image-card ml-3">
+                                        <img src="img/about/2.png" class="card-img-top" alt="Mentor Dito">
+                                    </div>
+    
+                                    <div class="col-6 category-about">
+                                        <button type="submit">Mahasiswi</button>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="row m-0 mb-2">
+                                    <div class="col-12 description">
+                                        <h5>Belinda Dwi Sukma P</h5>
+                                        <p>2110218</p>
+                                        <p>STMIK ANTAR BANGSA</p>
+                                    </div>
+                                </div>
+    
+                                <!-- button -->
+                                <div class="row">
+                                    <div class="col-12 m-0 d-grid gap-2">
+                                        <a href="https://www.instagram.com/belind.abl/" target="_blank" class="mb-4 btn btn-profile-about">Connect With Me</a>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card" style="border-radius: 10px;">
+                                <!-- title-name -->
+                                <div class="row">
+                                    <div class="col-6 image-card ml-3">
+                                        <img src="img/about/3.png" class="card-img-top" alt="Mentor Dito">
+                                    </div>
+                        
+                                    <div class="col-6 category-about">
+                                        <button type="submit">Mahasiswa</button>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="row m-0 mb-2">
+                                    <div class="col-12 description">
+                                        <h5>Ihsan Setiadi</h5>
+                                        <p>2110024</p>
+                                        <p>STMIK ANTAR BANGSA</p>
+                                    </div>
+                                </div>
+                        
+                                <!-- button -->
+                                <div class="row">
+                                    <div class="col-12 m-0 d-grid gap-2">
+                                        <a href="https://www.instagram.com/ikhsansetiyadi12/" target="_blank"
+                                            class="mb-4 btn btn-profile-about">Connect With Me</a>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!-- end card -->
+
+                        <!-- card -->
+                        <div class="col-lg-3 col-sm-12 mb-3">
+                            <div class="card" style="border-radius: 10px;">
+                                <!-- title-name -->
+                                <div class="row">
+                                    <div class="col-6 image-card ml-3">
+                                        <img src="img/about/2.png" class="card-img-top" alt="Mentor Dito">
+                                    </div>
+                        
+                                    <div class="col-6 category-about">
+                                        <button type="submit">Mahasiswi</button>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="row m-0 mb-2">
+                                    <div class="col-12 description">
+                                        <h5>Ambarsari</h5>
+                                        <p>2110038</p>
+                                        <p>STMIK ANTAR BANGSA</p>
+                                    </div>
+                                </div>
+                        
+                                <!-- button -->
+                                <div class="row">
+                                    <div class="col-12 m-0 d-grid gap-2">
+                                        <a href="https://www.instagram.com/sa.____.ry/" target="_blank"
+                                            class="mb-4 btn btn-profile-about">Connect With Me</a>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!-- end card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+
+    <!-- footer -->
+    <footer class="mt-5">
+        <div class="row footer justify-content-between">
+            <div class="col-lg-6 col-sm-12 diskas mt-5">
+                <img src="img/logo.png" width="100" alt="Diskas Official">
+                <p class="mt-3 mb-3 about">
+                    Happy Bear is a team created to complete the "Discrete Mathematics" coursework. Consists of four people and together
+                    work on resume materials.
+                </p>
+    
+                <p class="mt-3 cp">Contact <br>
+                    <a href="#">+62 812-7253-0818 (WhatsApp Ihsan)</a>
+                </p>
+    
+            </div>
+    
+            <div class="col-lg-6 col-sm-12 resume mt-5">
+                <h3>Resume Task</h3>
+                <a href="#">Pertemuan 1</a> <br>
+                <a href="#">Pertemuan 2</a> <br>
+                <a href="#">Pertemuan 3</a> <br>
+                <a href="#">Pertemuan 4</a>
+            </div>
+    
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
