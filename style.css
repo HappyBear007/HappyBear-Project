@@ -33,7 +33,7 @@ body {
 .konten {
     width: auto;
     height: 544px;
-    background-image: url("../img/bg-header.png");
+    background-image: url("img/bg-header.png");
     background-size: cover;
     margin: 9% 20px 10px 20px;
     border-radius: 15px;
