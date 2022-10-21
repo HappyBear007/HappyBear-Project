@@ -33,7 +33,7 @@ body {
 .konten {
     width: auto;
     height: 544px;
-    background-image: url("img/bg-header.png")!important;
+    background-image: url("../../img/bg-header.png");
     background-size: cover;
     margin: 9% 20px 10px 20px;
     border-radius: 15px;
@@ -248,6 +248,38 @@ footer .resume a {
     .konten .card .card-title {
         font-size: 30px;
     }
+
+    .konten-resume{
+        margin-top: 20%;
+    }
 }
 
 /* MEDIA SCREEN */
+
+/* ============== RESUME ============== */
+.resume-header h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.resume-header span{
+    font-weight:400;
+    line-height: 0;
+    font-size: 14px;
+}
+
+.resume-desc p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.resume-desc table{
+    margin: 0 auto;
+}
+
+.resume .example p{
+    text-align: center;
+
+}
+/* ============== RESUME ============== */
