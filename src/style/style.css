@@ -288,4 +288,16 @@ footer .resume a {
     text-align: center;
 
 }
+
+.task .btn-arrow a .btn-prev,
+.task .btn-arrow a .btn-next:hover{
+    background-color: #00808033;
+    color: #000;
+}
+
+.task .btn-arrow a .btn-next, 
+.task .btn-arrow a .btn-prev:hover{
+    background-color: #008080;
+    color: #fff;
+}
 /* ============== RESUME ============== */
