@@ -7,6 +7,7 @@ Happy Bear is a team created to complete the "Discrete Mathematics" coursework. 
 2. <a href="https://www.instagram.com/yusufkata03/">Belinda Dwi Sukma P </a> - 2110218
 3. <a href="https://www.instagram.com/yusufkata03/">Ihsan Setiyadi </a> - 2110024
 4. <a href="https://www.instagram.com/yusufkata03/">Ambarsari </a> - 2110038
+5. <a href="https://instagram.com/a.pramudya_trenggono/">Agung Pramudya </a> - 2010001
 
 # Dosen Pengampu
 
