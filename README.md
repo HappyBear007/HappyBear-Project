@@ -1,5 +1,5 @@
 # HappyBear-Project
-Happy Bear is a team created to complete the "Discrete Mathematics" coursework. Consists of four people and together work on resume materials.
+Happy Bear is a team created to complete the "Discrete Mathematics" coursework. Consists of five people and together work on resume materials.
 
 # Member
 
