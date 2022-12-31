@@ -96,7 +96,7 @@ body {
 
 /* RESUME */
 
-.resume, .about{
+.resume{
     font-size: 25px;
     font-weight: 400;
 }
@@ -201,7 +201,7 @@ footer {
 }
 
 footer .diskas .about {
-    font-size: 16px;
+    font-size: 16px!important;
     font-weight: 400;
     color: #000000B2;
 }
